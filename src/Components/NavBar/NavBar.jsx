@@ -2,13 +2,13 @@ import React from "react";
 import "./NavBar.css"
 // import "./NavBar.css";
 import logo from "../../Assets/logo.svg"
-import { Navbar, Container, Nav, N } from "react-bootstrap";
+import { Navbar, Nav} from "react-bootstrap";
 
 const NavBar = () => {
   return (
     <>
  <Navbar bg="transparent"  expand="lg" variant="dark" >
-    <a href="#"><img src={logo} alt="logo" /></a>
+    <a href="/"><img src={logo} alt="logo" /></a>
    
     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{color:"white"}} />
     <Navbar.Collapse id="basic-navbar-nav">

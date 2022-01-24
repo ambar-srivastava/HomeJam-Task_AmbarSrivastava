@@ -11,7 +11,7 @@ const Reviews = () => {
             <h2>Reviews</h2>
             <hr />
           </div>
-          <a href="#">View all</a>
+          <a href="/">View all</a>
         </div>
         <ReviewCards />
       </div>

@@ -11,7 +11,7 @@ const UpcomingShows = () => {
             <h2>Upcoming Shows</h2>
             <hr />
           </div>
-          <a href="#">View all</a>
+          <a href="/">View all</a>
         </div>
         <Shows />
       </div>

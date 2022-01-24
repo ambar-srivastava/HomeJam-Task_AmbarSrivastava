@@ -16,7 +16,7 @@ const Shows = () => {
             <h5 className="card-title">Folk</h5>
             <p className="card-text">Benny Dayal</p>
             <div className="buttons">
-              <a href="#">
+              <a href="/">
                 More Info ➡
               </a>
               <i className="ri-coupon-3-line"></i>
@@ -29,7 +29,7 @@ const Shows = () => {
             <h5 className="card-title">Bollywood</h5>
             <p className="card-text">Vijay Yesudas</p>
             <div className="buttons">
-              <a href="#">
+              <a href="/">
                 More Info ➡
               </a>
               <i className="ri-coupon-3-line"></i>
@@ -42,7 +42,7 @@ const Shows = () => {
             <h5 className="card-title">Folk</h5>
             <p className="card-text">Andrea Jeremiah</p>
             <div className="buttons">
-              <a href="#">
+              <a href="/">
                 More Info ➡
               </a>
               <i className="ri-coupon-3-line"></i>
@@ -55,7 +55,7 @@ const Shows = () => {
             <h5 className="card-title">Folk</h5>
             <p className="card-text">Shilpa Rao</p>
             <div className="buttons">
-              <a href="#">
+              <a href="/">
                 More Info ➡
               </a>
               <i className="ri-coupon-3-line"></i>
