@@ -1,0 +1,83 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showsCard {
+  border-radius: 8px;
+  margin-top: 30px;
+  width: 220px;
+  height: 320px;
+  background: #111229;
+  /* box-shadow: 5px -5px ; */
+  box-shadow: 5px -5px #301a68;
+  overflow: hidden;
+}
+
+.showsCard img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 10px 15px;
+}
+
+.card-title {
+  font-family: "Nunito", sans-serif;
+  background-color: #e5c558;
+  padding: 2px 8px;
+  border-radius: 2px;
+  display: inline;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.card-text {
+  font-family: "Libre Baskerville", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 46px;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: tomato; */
+  margin-top: -10px;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #0259eb;
+  background-color: transparent;
+  border: none;
+}
+
+.buttons i {
+  font-size: 22px;
+  font-weight: 100;
+  color: #c434d8;
+}
+
+@media screen and (max-width: 480px) {
+  .cardContainer {
+    /* background-color: red ; */
+    position: relative;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    min-height: 380px;
+  }
+  .cards {
+    position: absolute;
+  }
+  .showsCard {
+    margin-right: 30px;
+  }
+}

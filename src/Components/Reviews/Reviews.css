@@ -1,0 +1,42 @@
+.containerOfReview {
+  padding: 8% 10% 0 10%;
+}
+
+.container-box-reviews {
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.container-box-reviews hr {
+  width: 37px;
+  height: 2px;
+  margin-top: 5px;
+  background-color: #0259eb;
+  border-radius: 100px;
+  border: none;
+}
+
+.container-box-reviews a {
+  text-decoration: none;
+  color: #e5c558;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .containerOfReview {
+    margin-top: 50px;
+  }
+  .container-box-reviews {
+    margin-bottom: 0px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}

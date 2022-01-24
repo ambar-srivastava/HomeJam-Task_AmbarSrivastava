@@ -1,0 +1,83 @@
+.reviewContainer {
+  position: relative;
+}
+.reviewCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showReviewCards {
+  border-radius: 8px;
+  width: 300px;
+  min-height: 210px;
+  background: #111229;
+  border: 1px solid #e5c558;
+  box-shadow: 5px -5px #276c73;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.profile {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 30px 20px 10px 20px;
+}
+
+.proImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: url(../../Assets/card3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.proName h6 {
+  font-family: "Libre Baskerville", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.proName span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  color: #e5c558;
+}
+
+.showReviewCards p {
+  padding: 10px 20px 20px 20px;
+  color: #fff;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 480px) {
+  .reviewContainer {
+    position: relative;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll hidden;
+    overflow-y: hidden;
+    min-height: 400px;
+  }
+  
+  .reviewCards {
+    position: absolute;
+  }
+  .showReviewCards {
+    margin-top: 40px;
+    margin-right: 30px;
+  }
+}
